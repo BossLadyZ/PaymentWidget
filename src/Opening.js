@@ -12,7 +12,7 @@ export const Opening = () => {
             alignItems: "center",
             marginTop: "150px"
           }}>
-            <img src={logo} width='300px' />
+            <img src={logo} alt="Renmoney logo" width='300px' />
         </div>
         <div
         style={{

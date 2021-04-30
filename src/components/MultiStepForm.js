@@ -87,12 +87,8 @@ export const MultiStepForm = () => {
             return <EmploymentDetails { ...props}/>;
         case "submit":
                 return <Submit { ...props} />;
-    }
+        default:
+            return <h2>Something is wrong</h2>
+            }
 
-
-    return (
-        <div>
-            <h1>Multi step Form</h1>
-        </div>
-    )
 }
